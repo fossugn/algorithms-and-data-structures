@@ -14,6 +14,10 @@
 #import "ArrayLeftRotation.h"
 #import "CheckIfBST.h"
 #import "TriesContacts.h"
+#import "BubbleSort.h"
+#import "InsertionSort.h"
+#import "SelectionSort.h"
+#import "QuickSort.h"
 
 @interface ViewController ()
 
@@ -46,9 +50,26 @@
 //    CheckIfBST *checkIfBST = [CheckIfBST new];
 //    [checkIfBST startTest];
     
-    TriesContacts *triesContacts = [TriesContacts new];
-    [triesContacts setupTest];
-    [triesContacts startTest];
+//    TriesContacts *triesContacts = [TriesContacts new];
+//    [triesContacts setupTest];
+//    [triesContacts startTest];
+    
+//    BubbleSort *bubbleSort = [BubbleSort new];
+//    [bubbleSort setupTest];
+//    [bubbleSort startTest];
+    
+//    InsertionSort *insertionSort = [InsertionSort new];
+//    [insertionSort setupTest];
+//    [insertionSort startTest];
+    
+//    SelectionSort *selectionSort = [SelectionSort new];
+//    [selectionSort setupTest];
+//    [selectionSort startTest];
+    
+    QuickSort *quickSort = [QuickSort new];
+    [quickSort setupTest];
+    [quickSort startTest];
+    
 }
 
 

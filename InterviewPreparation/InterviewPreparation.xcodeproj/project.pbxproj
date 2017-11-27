@@ -18,9 +18,12 @@
 		74EAC8851FC90F40005BEF3F /* ArrayLeftRotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 74EAC8841FC90F40005BEF3F /* ArrayLeftRotation.m */; };
 		74F8076C1FCAEB9500F92103 /* CheckIfBST.mm in Sources */ = {isa = PBXBuildFile; fileRef = 74F8076B1FCAEB9500F92103 /* CheckIfBST.mm */; };
 		74F8076F1FCB3A9200F92103 /* TriesContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F8076E1FCB3A9200F92103 /* TriesContacts.m */; };
-		74F807711FCBC58300F92103 /* TriesContactsNotOptimized.m in Sources */ = {isa = PBXBuildFile; fileRef = 74F807701FCBC58300F92103 /* TriesContactsNotOptimized.m */; };
 		74FD98781FBD15EF0064441C /* FindPivotIndex.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD98771FBD15EF0064441C /* FindPivotIndex.m */; };
 		74FD987B1FBD16F80064441C /* BaseTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 74FD987A1FBD16F80064441C /* BaseTestClass.m */; };
+		85B8E83E1FCC3FD500D986A0 /* QuickSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B8E83D1FCC3FD500D986A0 /* QuickSort.m */; };
+		85B8E8411FCC460200D986A0 /* BubbleSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B8E8401FCC460200D986A0 /* BubbleSort.m */; };
+		85B8E8441FCC461300D986A0 /* InsertionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B8E8431FCC461300D986A0 /* InsertionSort.m */; };
+		85B8E8471FCC462000D986A0 /* SelectionSort.m in Sources */ = {isa = PBXBuildFile; fileRef = 85B8E8461FCC462000D986A0 /* SelectionSort.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +63,14 @@
 		74FD98771FBD15EF0064441C /* FindPivotIndex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindPivotIndex.m; sourceTree = "<group>"; };
 		74FD98791FBD16F80064441C /* BaseTestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseTestClass.h; sourceTree = "<group>"; };
 		74FD987A1FBD16F80064441C /* BaseTestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTestClass.m; sourceTree = "<group>"; };
+		85B8E83C1FCC3FD500D986A0 /* QuickSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickSort.h; sourceTree = "<group>"; };
+		85B8E83D1FCC3FD500D986A0 /* QuickSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickSort.m; sourceTree = "<group>"; };
+		85B8E83F1FCC460200D986A0 /* BubbleSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BubbleSort.h; sourceTree = "<group>"; };
+		85B8E8401FCC460200D986A0 /* BubbleSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BubbleSort.m; sourceTree = "<group>"; };
+		85B8E8421FCC461300D986A0 /* InsertionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InsertionSort.h; sourceTree = "<group>"; };
+		85B8E8431FCC461300D986A0 /* InsertionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InsertionSort.m; sourceTree = "<group>"; };
+		85B8E8451FCC462000D986A0 /* SelectionSort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectionSort.h; sourceTree = "<group>"; };
+		85B8E8461FCC462000D986A0 /* SelectionSort.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectionSort.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +129,14 @@
 				74F8076D1FCB3A9200F92103 /* TriesContacts.h */,
 				74F8076E1FCB3A9200F92103 /* TriesContacts.m */,
 				74F807701FCBC58300F92103 /* TriesContactsNotOptimized.m */,
+				85B8E83F1FCC460200D986A0 /* BubbleSort.h */,
+				85B8E8401FCC460200D986A0 /* BubbleSort.m */,
+				85B8E8421FCC461300D986A0 /* InsertionSort.h */,
+				85B8E8431FCC461300D986A0 /* InsertionSort.m */,
+				85B8E8451FCC462000D986A0 /* SelectionSort.h */,
+				85B8E8461FCC462000D986A0 /* SelectionSort.m */,
+				85B8E83C1FCC3FD500D986A0 /* QuickSort.h */,
+				85B8E83D1FCC3FD500D986A0 /* QuickSort.m */,
 				74AF8FF81FB294A900156B1C /* Main.storyboard */,
 				74AF8FFB1FB294A900156B1C /* Assets.xcassets */,
 				74AF8FFD1FB294A900156B1C /* LaunchScreen.storyboard */,
@@ -238,16 +257,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F807711FCBC58300F92103 /* TriesContactsNotOptimized.m in Sources */,
 				74AF8FF71FB294A900156B1C /* ViewController.m in Sources */,
 				74AF90021FB294A900156B1C /* main.m in Sources */,
 				74FD98781FBD15EF0064441C /* FindPivotIndex.m in Sources */,
 				74FD987B1FBD16F80064441C /* BaseTestClass.m in Sources */,
 				74EAC8851FC90F40005BEF3F /* ArrayLeftRotation.m in Sources */,
 				74F8076C1FCAEB9500F92103 /* CheckIfBST.mm in Sources */,
+				85B8E83E1FCC3FD500D986A0 /* QuickSort.m in Sources */,
 				74AF8FF41FB294A900156B1C /* AppDelegate.m in Sources */,
+				85B8E8441FCC461300D986A0 /* InsertionSort.m in Sources */,
+				85B8E8471FCC462000D986A0 /* SelectionSort.m in Sources */,
 				74AF90181FB2951500156B1C /* RevertArray.m in Sources */,
 				74F8076F1FCB3A9200F92103 /* TriesContacts.m in Sources */,
+				85B8E8411FCC460200D986A0 /* BubbleSort.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
