@@ -17,6 +17,15 @@
 
 @implementation SelectionSort
 
+- (instancetype)initWithArray:(NSArray *)array {
+    self = [super init];
+    if (self) {
+        self.unsortedArray = array;
+    }
+    return self;
+}
+
+
 - (void)setupTest {
     self.unsortedArray = @[@8, @79, @1, @6, @8, @31, @0, @7, @12, @25];
 }
